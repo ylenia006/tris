@@ -7,7 +7,7 @@ body, p, h1, h2, h3, ul
 body
 {
   background-image: url(../img/sfondo.png);
-  background-size: 360px;
+  background-size: 480px;
   background-repeat: no-repeat;
   background-color: black;
   background-position: center center;
@@ -26,7 +26,8 @@ body
   src: url("../fonts/bb.otf") format("opentype");
 }
 
-.button {
+.button 
+{
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,5 +191,23 @@ body
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.Button 
+{
+  width: 150px;
+  background-color: #0D3E10;
+  border: 2px black solid;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+a .Button 
+{
+  text-decoration: none;
+  color: white;
+  text-align: center;
 }
 

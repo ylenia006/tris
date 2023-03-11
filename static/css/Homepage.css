@@ -1,0 +1,108 @@
+body, p, h1, h2, h3, ul
+{ 
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-image: url(../img/sfondo.png);
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: right;
+  min-height: 100vh;
+}
+
+@media (min-width: 1024px){
+  body{
+    background-size: 600px;
+  }
+}
+
+@font-face {
+  font-family: "BB";
+  src: url("../fonts/bb.otf") format("opentype");
+}
+
+.bb
+{
+  font-family: "BB";
+  color: white;
+  font-size: 50px;
+}
+
+.contentCenter
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  width: 60%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Logo
+{
+  max-width: 60%;
+}
+
+.Giochiamo
+{
+  font-family: 'IM Fell English', serif;
+  color: white;
+  font-size: 35px;
+}
+
+h2 
+{
+  padding-top: 20px;
+}
+
+.button 
+{
+  width: 200px;
+  background-color: #0D3E1080;
+  border: 2px black solid;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button a 
+{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.space
+{
+  justify-content: space-around;
+  display: flex;
+}
+
+.Instagram
+{
+  text-align: center;
+  color: white;
+  font-family: 'IM Fell English', serif;
+  padding-top: 10px;
+  border-top: 2px solid white;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.Instagram a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Cont
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}

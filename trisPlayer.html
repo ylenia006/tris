@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Giochiamo a Tris! </title>
+</head>
+<body>
+
+	<link rel="stylesheet" type="text/css" href="static/CSS/tris.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
+
+<div class="contentCenter">
+	<img class="Logo" src="static/img/LogoDef.png">
+	
+	<h2 class="Giochiamo">
+		Sta giocando:
+	</h2>
+
+	<div class="Turno">
+		<p class="bb">
+			Player 
+		</p>
+		<div class="imgTurn">
+			<img class="img-size" id="x" src="static/img/caramelos-breaking-bad-removebg-preview.png">
+		</div>
+	</div>
+
+	<div class="Turno">
+		<p class="bb">
+			Player 
+		</p>
+		<div class="imgTurn">
+			<img class="img-size" id="o" src="static/img/antigas-removebg-preview.png">
+		</div>
+	</div>
+
+	<div class="trisGrid">
+		<div class="row">
+			<div class="col no-top no-left">
+				<a href="#" data-cell="1" data-row="1" class="gridBtn button"></a>
+			</div>
+			<div class="col no-top">
+				<a href="#" data-cell="2" data-row="1" class="gridBtn button"></a>
+			</div>
+			<div class="col no-top no-right">
+				<a href="#" data-cell="3" data-row="1" class="gridBtn button"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col no-left">
+				<a href="#" data-cell="1" data-row="2" class="gridBtn button"></a>
+			</div>
+			<div class="col">
+				<a href="#" data-cell="2" data-row="2" class="gridBtn button"></a>
+			</div>
+			<div class="col no-right">
+				<a href="#" data-cell="3" data-row="2" class="gridBtn button"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col no-left no-bottom">
+				<a href="#" data-cell="1" data-row="3" class="gridBtn button"></a>
+			</div>
+			<div class="col no-bottom">
+				<a href="#" data-cell="2" data-row="3" class="gridBtn button"></a>
+			</div>
+			<div class="col no-right no-bottom">
+				<a href="#" data-cell="3" data-row="3" class="gridBtn button"></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="winner">
+		<p class="Giochiamo footer">Player</p>
+		<div id="winner-image"></div>
+		<p class="Giochiamo footer">Wins!</p>
+		
+	</div>
+	<div class="reset-cnt">
+		<button id="resetBtn" class="resetBtn Button">
+			Restart Game
+		</button>
+		<a href="index.html"> <button class="Button"> Back To Menu </button> </a>
+	</div>
+	<div>
+		<p class="Instagram"> Made by <a target="_blank" href="https://www.instagram.com/yleniabernardi.exe/"> Ylenia Bernardi </a> </p>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="./static/js/tris.js"></script>
+
+</body>
+</html>
